@@ -59,13 +59,19 @@ Get the container ID
 docker ps
 ```
 
-Remove the container
+Remove the container (e.g. - if the container ID is `1fa4ab2cf395`)
 
 ```
 docker kill 1fa4ab2cf395
 ```
 
-Remove image
+Get a list of images
+
+```
+docker images
+```
+
+Remove image (e.g. - if the image ID is `1fa4ab2cf395`)
 
 ```
 docker rmi 1fa4ab2cf395
