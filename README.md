@@ -83,7 +83,7 @@ docker rmi 1fa4ab2cf395
 
 ## Debug
 
-To explore container -- run interactive `/bin/bash` directly on the container
+To explore container -- run interactive `/bin/bash` directly on the image
 
 ```
 docker exec -i -t 516c87927968 /bin/bash
