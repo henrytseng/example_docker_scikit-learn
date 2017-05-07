@@ -50,7 +50,7 @@ def build_patient
   list = []
 
   # Asthma 20%
-  has_asthma = (rand <= (0.2))
+  has_asthma = (rand <= (0.5))
 
   # Number of siblings with asthma
   if has_asthma
@@ -108,7 +108,7 @@ def build_patient
   # Lung function measurements (FEV1)
   if has_asthma
     # Normal: Equal to or greater than 80%
-    list.push ((rand * 0.25) + 0.75)
+    list.push ((rand * 0.4) + 0.51)
   else
     # Abnormal: 70-79% 60-69% less than 60%
     list.push ((rand * 0.25) + 0.5)
