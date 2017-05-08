@@ -49,7 +49,7 @@ generator = Namey::Generator.new
 def build_patient
   list = []
 
-  # Asthma 20%
+  # Asthma 50%
   has_asthma = (rand <= (0.5))
 
   # Number of siblings with asthma
