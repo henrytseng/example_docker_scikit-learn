@@ -45,7 +45,9 @@ docker ps
 Create the data set of 100k examples
 
     cd notebook/data/; ./create_example.rb --limit 100000 --do_write
-Direct your browser to http://localhost:8888/?token=49f039d31855ab1c6247201be0cb742499f34e8b14f01cc6 
+Direct your browser using the token given to you in the terminal window
+
+http://localhost:8888/?token=49f039d31855ab1c6247201be0cb742499f34e8b14f01cc6 
 
 
 
