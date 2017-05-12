@@ -8,6 +8,8 @@ Get Docker https://store.docker.com/
 
 Check installation; you may need to use `sudo` depending on what environment/version-of-docker-machine you're running
 
+Make sure your Docker service is running.  
+
 ```
 docker --version
 ```
