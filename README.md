@@ -28,8 +28,6 @@ docker images
 
 
 
-
-
 ## Run
 
 Start container
@@ -51,15 +49,9 @@ Direct your browser using the token given to you in the terminal window
 
 http://localhost:8888/?token=49f039d31855ab1c6247201be0cb742499f34e8b14f01cc6 
 
-
-
 Check your environment with `notebook/check_env.ipynb`
 
-
-
 Open up the notebook `notebook/01 - Example.ipynb` to take a look at the example.  
-
-
 
 
 
@@ -88,8 +80,6 @@ Remove image (e.g. - if the image ID is `1fa4ab2cf395`)
 ```
 docker rmi 1fa4ab2cf395
 ```
-
-
 
 
 
