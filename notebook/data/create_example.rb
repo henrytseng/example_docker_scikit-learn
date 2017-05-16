@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require "fileutils"
-require 'namey'
 require 'csv'
 
 # Show help
@@ -45,7 +44,6 @@ if item_limit.nil? || !item_limit.is_a?(Fixnum) || item_limit <= 0
 end
 
 # Build random patient
-generator = Namey::Generator.new
 def build_patient
   list = []
 
