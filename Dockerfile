@@ -1,6 +1,6 @@
 FROM debian:8.5
 
-MAINTAINER Kamil Kwiek <kamil.kwiek@continuum.io>
+MAINTAINER Henry Tseng <henry@caredox.com>
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
